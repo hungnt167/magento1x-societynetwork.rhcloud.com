@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+    <zx_pos_index_index>
+        <reference name="head">
+            <action method="setTitle">
+                <title>ZX-POS</title>
+            </action>
+            <action method="setTemplate">
+                <template>zx/pos/head.phtml</template>
+            </action>
+            <action method="removeAllItems"/>
+
+            <!-- BEGIN LIBS CSS-->
+
+            <!-- END LIBS CSS-->
+
+            <!-- BEGIN SOURCES CSS-->
+            <action method="addCss">
+                <name>zx/pos/css/app.css</name>
+            </action>
+            <!--END SOURCES CSS-->
+
+            <!-- BEGIN LIBS JS-->
+            <action method="addJs">
+                <name>zx/pos/components/angular/angular.min.js</name>
+            </action>
+            <!-- END LIBS-->
+
+            <!-- BEGIN SOURCES JS-->
+            <action method="addJs">
+                <name>zx/pos/app.js</name>
+            </action>
+            <!--END SOURCES JS-->
+        </reference>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>zx/pos/root.phtml</template>
+            </action>
+        </reference>
+    </zx_pos_index_index>
+</layout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Zx_Pos>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Zx_Pos>
+    </modules>
+</config>
